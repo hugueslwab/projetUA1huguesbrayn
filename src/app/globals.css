@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bgcolor:white;
+  --textcolor:black;
+  --othercolor:gray;
+  --sweetcolor: lightpink; 
+}
+
+body {
+  color : var(--textcolor);
+  background: var(--bgcolor) ;
+}
+
+.leyoutContainer{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+

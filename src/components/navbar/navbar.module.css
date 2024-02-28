@@ -1,0 +1,13 @@
+.container{
+    padding: 1rem;
+    background-color:var(--textcolor) ;
+    color: var(--bgcolor);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.logo {
+    font-size: 1rem;
+    font-weight: 700;
+    
+}

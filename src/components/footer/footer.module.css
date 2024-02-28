@@ -1,0 +1,13 @@
+.container{
+   /* height: 50px;*/
+    padding: auto;
+    background-color: var(--textcolor);
+    color: var(--bgcolor);
+    align-items: center;
+    text-align: center;
+   
+}
+.lesH
+{
+    padding: 1rem;
+}

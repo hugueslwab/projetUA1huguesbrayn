@@ -1,0 +1,80 @@
+.container {
+   
+  margin: 2rem ;
+  padding: 20px;
+  border: 2px solid var(--othercolor);
+  border-radius: 5%;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+}
+ 
+
+ 
+.container .title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.container .description {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+ 
+.container .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+ 
+.container .likebutton {
+    font-size: 1.2em;
+  padding: 10px;
+  background-color:var(--othercolor);
+  color: var(--bgcolor);
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+}
+.container .bookingbutton {
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: var(--othercolor);
+    border-radius: 5%;
+    color: var(--bgcolor);
+    border: none;
+    cursor: pointer;
+  }
+ 
+.container .buttons button:hover {
+    background-color:var(--sweetcolor);
+  }
+ 
+.imgcontainer {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+.imgcontainer img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+ 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        height: 100vh;
+    }
+ 
+    .imgContainer {
+        position: relative;
+        width: 100% !important;
+        height: auto !important;
+    }
+}
